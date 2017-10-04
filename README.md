@@ -56,3 +56,4 @@ Yeah, we are create composer support for this legacy system.
 
 3. open command line at path where you have project's root
 4. type: `composer install studioartcz/sl_composer master-dev`
+5. yeah and you have composer your lucky human!
