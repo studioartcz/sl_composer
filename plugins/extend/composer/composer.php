@@ -5,11 +5,13 @@ if (!defined('_core')) {
 }
 
 /* registrace extendu */
-_extend('regm', 'sys.init', function($args) {
-
-    // Autoloader
-    if (is_file(_indexroot . 'vendor/autoload.php')) {
-        require_once(_indexroot . 'vendor/autoload.php');
-    }
-
-});
+_extend('regm',
+    [
+        'sys.init' => function($args) {
+            // Autoloader
+            if (is_file(_indexroot . 'vendor/autoload.php')) {
+                require_once(_indexroot . 'vendor/autoload.php');
+            }
+        }
+    ]
+);

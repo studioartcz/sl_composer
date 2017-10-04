@@ -40,6 +40,7 @@ Yeah, we are create composer support for this legacy system.
     
     ```
     vendor/*
+    bin
     config.php
     .idea
     data/*
