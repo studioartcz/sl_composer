@@ -1,0 +1,10 @@
+{
+  "name": "studioartcz/sl_composer",
+  "type": "project",
+  "description": "Support for Composer",
+  "homepage": "https://www.studioart.cz",
+  "private": true,
+  "require": {
+    "php": ">=5.6.0"
+  }
+}
